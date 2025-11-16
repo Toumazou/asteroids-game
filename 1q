@@ -10,10 +10,8 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 while True:
     log_state()
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.Surface.fill(screen,(0,0,0))
-            pygame.display.flip
+    pygame.Surface.fill(color="black")
+    pygame.display.flip
 
 def main():
     print("Starting Asteroids!")

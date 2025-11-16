@@ -5,3 +5,10 @@ ASTEROID_MIN_RADIUS = 20
 ASTEROID_KINDS = 3
 ASTEROID_SPAWN_RATE = 0.8  # seconds
 ASTEROID_MAX_RADIUS = ASTEROID_MIN_RADIUS * ASTEROID_KINDS
+
+PLAYER_RADIUS = 20 #radius of player's ship
+LINE_WIDTH = 2 #width of the lines that draw the player's ship
+
+PLAYER_TURN_SPEED = 300
+
+PLAYER_SPEED = 200
